@@ -21,8 +21,8 @@ A Python-based web scraper that automatically logs into a website, navigates to 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Web-Srapper-Dirac.git
-cd Web-Srapper-Dirac
+git clone https://github.com/yourusername/Web-Scrapper-Dirac.git
+cd Web-Scrapper-Dirac
 ```
 
 2. Install dependencies:
@@ -58,6 +58,10 @@ The script will:
 - `requirements.txt`: Project dependencies
 - `.env`: Environment variables (not included in repo)
 
-## License
+## My Thoughts
 
-MIT License 
+1) I enjoyed the project, it was very fun hacking around all the different things in the webiste like finding the login page, sending the post request to login, finding which tags had the correct information like barcodes etc - brought out my inner nerd which was awesome.
+2) I tried to keep the code as general as possible to work with other websites. I understand that for the hardcoded things usch as the tags and regex patterns used that this won't be able to extrapolate to other websites very well if at all. My thoughts for how to address this would be using a large context window LLM like the new Gemini model to be able to analyse full pages and return the answers in json structured format as we did.
+3) The reason for more hardcoding in t his project is the goal was to scrape this website and also I did not want to absolutely kill my credit card with API calls. Hence why I only have a small demo of the translation feature in the english csv to show this is possible for the translation.
+4) Overall fun project! :)
+
