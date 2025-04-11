@@ -14,8 +14,8 @@ A Python-based web scraper that automatically logs into a website, navigates to 
 
 ## Requirements
 
-- Python 3.8+
 - Required packages listed in `requirements.txt`
+- Python version I used - Python 3.12.8
 
 ## Installation
 
