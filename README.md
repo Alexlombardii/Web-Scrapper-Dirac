@@ -54,7 +54,7 @@ The script will:
 ## Project Structure
 
 - `web_scrapper.py`: Main scraping script
-- `french_to_english.py`: Translation utilities
+- `french_to_english.py`: Translation from the website being in French to English
 - `requirements.txt`: Project dependencies
 - `.env`: Environment variables (not included in repo)
 
